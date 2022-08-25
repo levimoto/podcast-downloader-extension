@@ -1,24 +1,28 @@
 :root {
-  --gpde__download-btn: #4285f4;
-  --gpde__text-color: white;
+  --gpde__download-btn: #dadce0;
+  --gpde__text-color: #3c4043;
 }
 
-#gpde__download-btn {
+.gpde__download-btn {
   border: 1px solid var(--gpde__download-btn);
   border-radius: 100px;
   background: none;
-  color: var(--gpde__download-btn);
+  color: var(--gpde__text-color);
+  font-weight: 500;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   cursor: pointer;
   padding: 5px 10px;
+  margin-left: 10px;
   margin-right: 10px;
+  height: 32px;
 }
 
-#gpde__download-btn:hover {
+.gpde__download-btn:hover {
   border: 1px solid var(--gpde__download-btn);
   color: var(--gpde__text-color);
   background-color: var(--gpde__download-btn);
 }
 
-#gpde__download-btn:active {
+.gpde__download-btn:active {
   opacity: 0.8;
 }
